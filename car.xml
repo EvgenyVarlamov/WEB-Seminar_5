@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<Car>
+	<body>
+		<underbody>
+			<part01>front floor</part01>
+			<part02>center floor</part02>
+			<part03>rear floor</part03>
+		</underbody>
+	</body>
+	<body>
+		<mainbody>
+			<part11>hood</part11>
+			<part12>
+				<part12.1>front door right</part12.1>
+				<part12.2>front door left</part12.2>
+			</part12>
+			<part13>
+				<part13.1>rear door right</part13.1>
+				<part13.2>rear door left</part13.2>
+			</part13>
+			<part14>back door</part14>
+			<part15>roof</part15>
+		</mainbody>
+	</body>
+	<engine>
+		<part21>
+			<part211>cylinder head</part211>
+			<part212>crankcase</part212>
+		</part21>
+		<part22>
+			<part221>crankshaft</part221>
+			<part222>flywheel</part222>
+			<part223>piston</part223>
+		</part22>
+		<part23>
+			<part231>valve</part231>
+			<part232>nozzle</part232>
+			<part233>spark plug</part233>
+			<part234>
+				<part2341>air filter</part2341>
+				<part2342>throttle</part2342>
+			</part234>
+			<part235>
+				<part2351>oil filter</part2351>
+				<part2352>oil pump</part2352>
+			</part235>
+		</part23>
+	</engine>
+	<transmission>
+		<part31>frame</part31>
+		<part32>planetary gear</part32>
+		<part33>hydroblock</part33>
+		<part34>fluid coupling</part34>
+		<part35>shaft</part35>
+		<part36>oil tank</part36>
+	</transmission>
+	<fuel_system>
+		<part41>tank</part41>
+		<part42>fuel filter</part42>
+		<part43>gasoline pump</part43>
+		<part44>pipeline</part44>
+	</fuel_system>
+	<chassis>
+		<part51>suspension</part51>
+		<part52>wheel</part52>
+		<part53>pressure sensor</part53>
+	</chassis>
+</Car>

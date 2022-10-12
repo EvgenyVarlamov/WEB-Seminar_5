@@ -1,0 +1,93 @@
+{
+  "Car": [
+    {
+      "body": [
+        {
+          "underbody": [
+            {
+              "part01": "front floor",
+              "part02": "center floor",
+              "part03": "rear floor"
+            }
+          ]
+        },
+        {
+          "mainbody": [
+            {
+              "part11": "hood",
+              "part12": {
+                "part12.1": "front door right",
+                "part12.2": "front door left"
+              },
+              "part13": {
+                "part13.1": "rear door right",
+                "part13.2": "rear door left"
+              },
+              "part14": "back door",
+              "part15": "roof"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "engine": [
+        {
+          "part21": {
+            "part211": "cylinder head",
+            "part212": "crankcase"
+          },
+          "part22": {
+            "part221": "crankshaft",
+            "part222": "flywheel",
+            "part223": "piston"
+          },
+          "part23": {
+            "part231": "valve",
+            "part232": "nozzle",
+            "part233": "spark plug",
+            "part234": {
+              "part2341": "air filter",
+              "part2342": "throttle"
+            },
+            "part235": {
+              "part2351": "oil filter",
+              "part2352": "oil pump"
+            }
+          }
+        }
+      ]
+    },
+    {
+      "transmission": [
+        {
+          "part31": "frame",
+          "part32": "planetary gear",
+          "part33": "hydroblock",
+          "part34": "fluid coupling",
+          "part35": "shaft",
+          "part36": "oil tank"
+        }
+      ]
+    },
+    {
+      "fuel system": [
+        {
+          "part41": "tank",
+          "part42": "fuel filter",
+          "part43": "gasoline pump",
+          "part44": "pipeline"
+        }
+      ]
+    },
+    {
+      "chassis": [
+        {
+          "part51": "suspension",
+          "part52": "wheel",
+          "part53": "pressure sensor"
+        }
+      ]
+    }
+  ]
+}
